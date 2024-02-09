@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p
+{
+    margin-top: 45px;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+ul
+{
+    list-style: none;
+    float: right;
+    margin-right: 50px;
+    word-spacing: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 22px;
+}
+.cast
+{
+    display: inline;
+}
+.logo
+{
+    float :left ;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-size: larger;
+}
+ul a:hover
+{
+    color: black bold;
+    border-bottom: 2px solid black;
+    font-weight: 700;
+}
+.logo:hover
+{
+    color: black;
+    font-weight: 900;
+}
+header
+{
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+    background-color:dimgray;
+}
+.text
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 8px; 
+    text-align: center;
+    padding: 60px;
+}
+.image1
+{
+    width: 480px;
+    height: 280px;
+}
+.image2
+{
+    width: 480px;
+    height: 280px;
+}
+.image3
+{
+    width: 480px;
+    height: 280px;
+}
+section
+{
+    height: 100vh;
+    background-color: black;
+}
+.gallery
+{
+    display: inline-block;
+    margin-left: 18px;
+    margin-top: 30px;
+    filter: opacity(50%);
+}
+.gallery:hover
+{
+    filter: opacity(100%);
+}
+.gallery .image1,.gallery .image2, .gallery .image3
+{
+    border-radius: 20px;
+}
+.button
+{
+    position: relative;
+    left: 44%;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.buttondiv .button, .buttondiv .abtbtn
+{
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.button:hover
+{
+    background-color:dimgray ;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.aboutimg
+{
+    width: 450px;
+    height: 250px;
+    border-radius: 20%;
+    border: 2px solid dimgrey;
+    float: left;
+    margin-top: -20px;
+}
+.abouttxt
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+    line-height: 50px;
+    text-align: justify;
+}
+.aboutI{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 8px;
+}
+.abtbtn
+{
+    color: black;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 60px;
+    left: 15%;
+    position: relative;
+}
+.abtbtn:hover
+{
+    background-color:dimgray ;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}

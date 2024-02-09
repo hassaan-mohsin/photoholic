@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.gallery
+{
+    text-align: center;
+    padding: 17px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    font-size: x-large;
+}
+.header
+{
+    height: 10vh;
+    background-color: dimgray;
+}
+.I
+{
+    width: 500px;
+    height: 304px;
+}
+.II
+{
+    width: 500px;
+    height: 304px;
+}
+.III
+{
+    width: 500px;
+    height: 304px;
+}
+.contact
+{
+    display: inline-block;
+    margin-left: 3px;
+    padding: 40px 0px 0px 0px ;
+    filter: opacity(50%);
+}
+.contactI
+{
+    display: inline-block;
+    margin-left: 3px;
+    padding: 40px 0px 0px 0px ;
+    filter: opacity(50%);
+}
+.contactI .I,.contactI .II, .contactI .III
+{
+    border-radius: 10px;
+}
+.contact .I,.contact .II, .contact .III
+{
+    border-radius: 10px;
+}
+.sectionI
+{
+    background-color: black;
+    height: 90vh;
+}
+.section
+{
+    background-color: black;
+    height: 60vh;
+}
+.contact:hover
+{
+    filter: opacity(100%);
+}
+.contactI:hover
+{
+    filter: opacity(100%);
+}
+.qoute
+{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 80px;
+    padding: 68px;
+    letter-spacing: 5px;
+}
+.text
+{
+    background-color: black;
+    height: 20vh;
+}
